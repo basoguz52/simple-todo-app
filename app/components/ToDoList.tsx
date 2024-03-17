@@ -12,9 +12,9 @@ const ToDoList: React.FC<ToDoListOzellikleri> = ({ tasks }) => {
             <table className="table">
                 <thead>
                     <tr>
-                        <th>Tasks</th>
-                        <th>Start Date</th>
-                        <th>End Date</th>
+                        <th className="w-full">Tasks</th>
+                        {/* <th>Start Date</th>
+                        <th>End Date</th> */}
                         <th>Action</th>
                     </tr>
                 </thead>
